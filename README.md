@@ -10,12 +10,9 @@ Voici les étapes du processus d'intégration et de déploiement continus. Jenki
 - **Nom du Job**: Donnez un nom significatif au job, par exemple "Pipeline_TheTipTop".
 - **Type de Job**: Sélectionnez "Pipeline" comme type de projet.
 
-### 3. Configuration du Job de Pipeline
-- **Source du Code**: Configurez le dépôt Git ou une autre source de code pour récupérer le code source. Vous aurez besoin d'une URL et d'un jeton d'accès ou des identifiants.
-- **Branching**: Spécifiez quelle branche Git surveiller (par exemple, `main` ou `master`).
 
-### 4. Définition du Pipeline
-- **Script de Pipeline**: Vous pouvez définir le pipeline directement dans Jenkins ou utiliser un fichier Jenkinsfile dans votre dépôt Git. Voici un exemple de script Pipeline de base :
+### 3. Définition du Pipeline
+- Utilisation d'un fichier Jenkinsfile dans le dépôt Git. Voici le script Pipeline de base :
 
 ```groovy
 pipeline {
