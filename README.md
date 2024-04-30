@@ -25,7 +25,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/votre-projet.git'  // URL de votre dépôt Git
+                git 'https://github.com/Nord-Bert/TheTipTop/'  // URL de votre dépôt Git
             }
         }
 
