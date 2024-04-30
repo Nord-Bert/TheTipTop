@@ -1,10 +1,9 @@
 # TheTipTop
 Pipeline_TheTipTop
-Pour créer une pipeline Jenkins, vous devez définir les étapes du processus d'intégration et de déploiement continus. Jenkins utilise des scripts Pipeline qui permettent de décrire le processus sous forme de code. Voici les étapes générales pour créer une pipeline Jenkins :
+Voici les étapes du processus d'intégration et de déploiement continus. Jenkins utilise des scripts Pipeline qui permettent de décrire le processus sous forme de code. Voici les étapes générales de la pipeline Jenkins :
 
 ### 1. Installation de Jenkins
-- **Téléchargement et Installation**: Installez Jenkins sur un serveur ou utilisez un service cloud hébergé.
-- **Plugins**: Assurez-vous que les plugins nécessaires (comme Pipeline, Git, Docker) sont installés.
+- **Téléchargement et Installation**: Installation de jenkins et lancement du serveur via docker
 
 ### 2. Création d'un Job de Pipeline
 - **Nouveau Job**: Depuis le tableau de bord Jenkins, cliquez sur "Nouveau item" ou "New item".
